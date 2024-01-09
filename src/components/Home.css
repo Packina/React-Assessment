@@ -1,0 +1,81 @@
+.home-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 1rem;
+}
+
+button {
+  background-color: #AC87C5;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  width: 220px;
+  height: 70px;
+}
+
+.buttonDiv {
+  margin: 20px;
+  padding: 20px;
+}
+
+.buttonDiv button {
+  margin-right: 50px;
+  
+}
+
+table {
+  margin-top: 20px;
+  width: 100%; 
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  background: #fff;
+  text-align: center;
+  
+}
+
+th, td {
+  padding: 20px 15px;
+  border-bottom: 1px solid #ddd; 
+  padding: 8px;
+  font-size: 15px;
+}
+
+th {
+  background: #E0AED0;
+  color: white;
+}
+
+td {
+  background: #FFE5E5;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  max-width: 400px;
+  margin: auto;
+  height: 35px;
+}
+
+form td:last-child {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+form * {
+  font-size: 18px;
+}
